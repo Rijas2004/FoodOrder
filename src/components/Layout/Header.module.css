@@ -23,6 +23,13 @@
   
   .main-image img {
     width: 105%;
-    height: 165%;
+    height: 100%;
     object-fit: cover;
     }
+
+@media (max-width: 426px) {
+  h1 {
+    font-size: 1.5rem;
+    margin: 0 10px 0 -10px;
+  }
+}
